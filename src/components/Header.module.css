@@ -2,9 +2,18 @@
     background: var(--gray-800);
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 1.25rem 0;
 }
 
 .header img {
     height: 2rem;
+    margin: 0;
+}
+
+.header strong {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-left: 0.5rem;
 }
